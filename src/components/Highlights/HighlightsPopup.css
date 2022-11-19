@@ -1,0 +1,65 @@
+.biggest{
+    background-color: aquamarine;
+    margin-top: 1rem;
+    overflow-x: hidden;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+    background-color: #fffaf6;
+    border: 1px solid #f2e5da;
+}
+.bear{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-family: 'source_sans_prosemibold', sans-serif;
+    font-size: 18px;
+}
+.overfloww{
+    display: inline-flex;
+    justify-content: space-evenly;
+    overflow-x: auto;
+
+}
+.elementscss{
+   background-color: blueviolet;
+   width: 200px;
+   height: 250px;
+   margin-top: 5px;
+    margin: 1px 15px 1px 1px;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+    border: solid 1px #e6e6e6;
+    background-color: #fff;
+
+}
+.aa{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.aa2{
+    width: 120px;
+    height: 150px;
+    overflow: hidden;
+    display: block;
+    transition: transform 2s;
+}
+.aa2:hover{
+    transform: scale(1.05);
+}
+.Price{
+    color: #f27a1a;
+    font-weight: 500;
+    font-size: large;
+    margin-top: 1rem;
+}
+.Dr{
+    margin-left: 1rem;
+}

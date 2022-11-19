@@ -1,0 +1,20 @@
+.popup1{
+    margin: 25px;
+}
+.textsDiv{
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 6px;
+    background-color: snow;
+    border-radius: 1px solid;
+    border-style: 1px solid;
+    border: 1px solid #d4d4d4;
+    font-size: small;
+}
+.textsDiv:hover{
+    border-color: #f27a1a;
+    color: #f27a1a;
+}
+.boxesCss{
+    display: flex;
+}

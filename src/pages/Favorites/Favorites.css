@@ -1,0 +1,45 @@
+.Favn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;   
+}
+.inputcss11{
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    width: 30%;
+    height: 2rem;
+    padding: 5px;
+    padding-left: 10px;
+}
+.inputcss11:hover{
+    border-color: #f27a1a;
+}
+.elementscss1{
+    height: 330px;
+    width: 230px;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    margin-left: 1rem;
+}
+.aa11{
+    height: 230px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.aa22{
+    width: 200px;
+    height: 250px;
+    overflow: hidden;
+    display: block;
+    transition: transform 2s;
+}
+.aa22:hover{
+    transform: scale(1.05);
+}
+.Favİtems{
+    display: flex;
+}

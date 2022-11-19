@@ -1,0 +1,45 @@
+.Bigger{
+    display: flex;
+    margin-top: 1rem;
+    overflow-x: hidden;
+}
+.marks1{
+    width: 6rem;
+    text-align: center;
+    justify-content: center;
+    margin: 1rem;
+
+}
+.pictureCss{
+    border: 1px solid #e6e6e6;
+    border-radius: 50%;
+    box-sizing: border-box;
+    width: 75px;
+    height: 75px;
+}
+.pictureCss2{
+    border: 1px solid #e6e6e6;
+    border-radius: 50%;
+    box-sizing: border-box;
+    width: 75px;   
+    height: 75px;
+}
+.centerPic{
+    display: flex;
+    justify-content: center;
+}
+.pictureCss:hover{
+    border-color: #f27a1a;
+}
+.pictureCss2:hover{
+    border-color: #f27a1a;
+}
+.marks1:hover{
+    color: #f27a1a;
+    border-color: #f27a1a;
+
+}
+.PicName{
+    margin-top: 10px;
+    font-weight: 500;
+}

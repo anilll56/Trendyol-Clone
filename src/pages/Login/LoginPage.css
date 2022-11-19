@@ -1,0 +1,153 @@
+.bigLogin{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1rem;
+    height: 100%;
+}
+.smallLogin{
+    width: 35%;
+}
+.Header1{
+    padding: 1rem;
+    font-size: xx-large;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.Header2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.LoginContainer{
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    margin-top: 1rem;
+}
+.GS{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color:#f27a1a ;
+    margin-top: 1rem;
+    font-size: large;
+    font-weight: 500;
+}
+.LoginContent{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-top: 2rem;
+}
+.inputStyle{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border: 1px solid #e6e6e6;
+}
+.see{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 15px;
+}
+.Buttoncss{
+    width: 100%;
+    padding: 10px;
+    background-color: #f27a1a;
+    border: 1px solid #e6e6e6;
+    color: #e6e6e6;
+    font-size: large;
+    margin-top: 1rem;
+}
+.Buttoncss:hover{
+    background-color: #dc7623;
+}
+.LoginType{
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+}
+.LoginFacebook{
+    border: 1px solid #e6e6e6;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    padding: 1px;
+}
+.LoginFacebook:hover{
+    background-color: #d9d6d6;
+}
+.ff1{
+    font-size: 15px;
+}
+.ff2{
+    font-size: 10px;
+}
+.gg-facebook {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 20px;
+    height: 20px
+   }
+   
+   .gg-facebook::after,
+   .gg-facebook::before {
+    content: "";
+    display: block;
+    position: absolute;
+    box-sizing: border-box
+   }
+   
+   .gg-facebook::before {
+    width: 8px;
+    height: 20px;
+    border-left: 4px solid;
+    border-top: 4px solid;
+    border-top-left-radius: 5px;
+    left: 6px
+   }
+   
+   .gg-facebook::after {
+    width: 10px;
+    height: 4px;
+    background: currentColor;
+    top: 7px;
+    left: 4px;
+    transform: skew(-5deg)
+   }
+   .gg-google,
+   .gg-google::before {
+    box-sizing: border-box;
+    display: block
+   }
+   
+   .gg-google {
+    position: relative;
+    transform: scale(var(--ggs,1));
+    width: 20px;
+    height: 20px;
+    border: 4px solid;
+    border-right-color: transparent;
+    border-radius: 22px
+   }
+   
+   .gg-google::before {
+    content: "";
+    position: absolute;
+    border-top: 4px solid;
+    border-right: 4px solid;
+    border-bottom: 4px solid;
+    border-radius: 0 0 10px 0;
+    width: 10px;
+    height: 12px;
+    right: -4px;
+    bottom: -4px
+   }
