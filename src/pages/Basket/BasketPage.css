@@ -1,0 +1,203 @@
+.firstContent{
+    display: flex;
+    justify-content: space-between;
+}
+.BasketHeader{
+    font-size: 22px;
+    margin: 1rem;
+}
+.LeftSide1{
+    width: 70%;
+}
+.BasketItem1{
+    width: 100%;
+    border: 1px solid #d4d4d4;
+    border-radius: 5px;
+}
+.Free1{
+    text-align: center;
+    font-weight: 500;
+    font-size: 15px;
+    background-color: #ebfff4;
+    border: 1px solid #d4d4d4;
+    padding: 5px;
+}
+.BasketCard1{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    justify-content: space-evenly;
+}
+.BasketCardImg1{
+    height: 10%;
+    width: 7%;
+    border: 1px solid #d4d4d4;
+    margin: 1rem;
+}
+.BasketCardImg2{
+    height: 100%;
+    width: 100%;
+}
+.BasketCardAbout1{
+    font-size: 15px;
+    width: 40%;
+}
+.BasketCardCounter1{
+    display: flex;
+    border: 1px solid #d4d4d4;
+    width: 10%;
+    height: 2rem;
+    justify-content: space-between;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+}
+.BasketCardNumber1{
+    margin-bottom: 5px;
+}
+.BasketCardCounterIcon1{
+    border: 1px solid #d4d4d4;
+    height: 100%;
+    display: contents;
+}
+.A1234{
+    width: 1.2rem;
+    height: 1.2rem;
+    color: #f27a1a;
+}
+.BasketCTrash{
+    width: 1.3rem;
+    height: 1.3rem;
+}
+.BasketCTrash:hover{
+    color: #f27a1a;
+}
+.BasketSuggestCards{
+    margin-top: 2rem;
+    font-size: 20px;
+    color: #f27a1a;
+}
+.CardBigContent{
+    border: 1px solid #d4d4d4;
+    width: 25%;
+    border-radius: 5px;
+    margin: 15px;
+}
+.CardImgStyle1{
+    text-align: center;
+    height: 12rem;
+}
+.CardImgStyle2{
+    width: 80%;
+    height: 12rem;
+}
+.CardSaller{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+.CardAbout1{
+    margin-left: 5px;
+}
+.CardPrice1{
+    color: #f27a1a;
+    font-size: 18px;
+    margin: 8PX;
+}
+.CardAddBasket{
+    display: flex;
+    justify-content: center;
+}
+.CardBasketT{
+    border: 1px solid #d4d4d4;
+    padding: 3px;
+    border-radius: 6px;
+}
+.CardAddToBasket{
+    border: 1px solid #f27a1a ;
+    padding: 6px;
+    width: 60%;
+    text-align: center;
+    border-radius: 5px;
+    margin: 1rem;
+    color: #f27a1a;
+    font-weight: 600    ;
+}
+.CardAddToBasket:hover{
+    background-color: #f27a1a;
+    color: white;
+    transition-duration: 500ms;
+}
+.CardContent11{
+    display: flex;
+}
+.RightSideCard{
+    width: 25%;
+    margin-top: 2rem;
+}
+.Abs1{
+    background-color: #f27a1a;
+    color: #ebfff4;
+    text-align: center;
+    font-size: large;
+    font-weight: 500;
+    padding: 11px;
+    border-radius: 5px;
+}
+.Abs1:hover{
+    background-color: #f39040;
+    transition-duration: 500ms;
+}
+.CardPP{
+    border: 1px solid #d4d4d4;
+    padding: 5px;
+    margin-top: 2rem;
+    border-radius: 8px;
+}
+.cspr1{
+    font-size: 22px;
+    font-weight: 600;
+    padding: 15px;
+}
+.cspr2{
+    display: flex;
+    justify-content:space-around;
+    margin-bottom: 1rem;
+}
+.LastPriceCss{
+    text-align: center;
+    font-size: 25px;
+    color: #f27a1a;
+    font-family: "oxygen";
+}
+.RightSideImg{
+    margin-top: 2rem;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid #d4d4d4;
+    transition-duration: 600ms;
+}
+.RightSideImg2{
+    width: 100%;
+    height: 100%;
+}
+.RightSideImg:hover{
+    transform:scale(1.1);
+    z-index: 2;
+    transition-duration: 600ms;
+}
+.IKG1{
+    border: 1px solid #d4d4d4;
+    margin-top: 2rem;
+    text-align: center;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 7px;
+    transition-duration: 500ms;
+    margin-bottom: 1rem;
+}
+.IKG1:hover{
+    border-color: #f27a1a;
+    transition-duration: 500ms;
+}
