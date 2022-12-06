@@ -2,9 +2,14 @@ import React, { useState } from 'react'
 import  './BasketPage.css'
 import { BsDash , BsPlus ,BsFillTrashFill} from "react-icons/bs";
 import RightSidePopup from './RightSidePopup/RightSidePopup';
+import { useDispatch, useSelector } from 'react-redux';
+import { deleteBasket } from '../../redux/marketSlice';
 
 function BasketPage() {
   const [number,setNumber]=useState(1);
+  const items=useSelector((state)=>state.market.item)
+  const itemFilter=items.filter((item)=>item.basket)
+  const dispatch=useDispatch();
   return (
     <div>
       <div className='firstContent'>
@@ -28,6 +33,27 @@ function BasketPage() {
               <div><BsFillTrashFill className='BasketCTrash'></BsFillTrashFill></div>
             </div>
           </div>
+            {
+              itemFilter.map((item)=>(
+                <div className='BasketItem1'>
+                <div className='Free1'>Kargo Bedava!</div>
+                <div className='BasketCard1'>
+                  <div>toggle</div>
+                  <div className='BasketCardImg1'>
+                    <img alt='1' className='BasketCardImg2' src={item.link}></img>
+                  </div>
+                  <div className='BasketCardAbout1'>{item.name}</div>
+                  <div className='BasketCardCounter1'>
+                    <div className='BasketCardCounterIcon1' onClick={()=>{setNumber(number-1)}}><BsDash className='A1234'></BsDash></div>
+                    <div className='BasketCardNumber1'>{number}</div>
+                    <div className='BasketCardCounterIcon1' onClick={()=>{setNumber(number+1)}}><BsPlus className='A1234'></BsPlus></div>
+                  </div>
+                  <div>{item.price * number}</div>
+                  <div><BsFillTrashFill onClick={()=>dispatch(deleteBasket(item.id))} className='BasketCTrash'></BsFillTrashFill></div>
+                </div>
+              </div>
+              ))
+            }
           <div className='BasketSuggestCards'>Önerilen Ürünler</div>
           <hr></hr>
           <div className='CardContent11'>

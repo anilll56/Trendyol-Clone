@@ -16,7 +16,7 @@
     border-color: #f27a1a;
 }
 .elementscss1{
-    height: 330px;
+    /* height: 330px; */
     width: 230px;
     border: 1px solid #d3d3d3;
     border-radius: 5px;
@@ -41,5 +41,39 @@
     transform: scale(1.05);
 }
 .Favİtems{
+    display: grid;
+    grid-template-columns: auto auto auto auto;     
+    gap: 20px;
+}
+.AddBASKET1{
+    text-align: center;
+}
+.Dr1{
+   margin-left: 1rem;
+   margin-right: 1rem; 
+}
+.AddBasket12{
+    width: 80%;
+    height: 2rem;
+    background-color: #f27a1a;
+    border: solid 0px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: whitesmoke;
+    margin: 1rem;
+}
+.AddBasket12:hover{
+    background-color: #dc7520;
+}
+.Deleteİcon1{
     display: flex;
+    justify-content: end;
+    margin: 0.4rem;
+}
+.İconCss142{
+    width: 20px;
+    height: 20px;
+}
+.İconCss142:hover{
+    color: #f27a1a;
 }

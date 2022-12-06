@@ -94,7 +94,7 @@ function MenPopup() {
       <div className='imgClass'>
         <div className='ww'>
         <div className='imgCss'>
-          <img  alt='s' src='https://cdn.dsmcdn.com/mnresize/500/247/ty574/campaign/banners/original/615150/a5afcbd7c8_0_detay.jpg' className='imgCss2'></img>
+          <img  alt='s' src='https://cdn.dsmcdn.com/mnresize/500/247/ty567/campaign/banners/original/611090/0c84339d0f_0_detay.jpg' className='imgCss2'></img>
         </div>
         <div className='imgCss'>
           <img  alt='s' src='https://cdn.dsmcdn.com/mnresize/500/247/ty567/campaign/banners/original/611090/0c84339d0f_0_detay.jpg' className='imgCss2' ></img>

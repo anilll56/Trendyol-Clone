@@ -74,7 +74,7 @@ function ShopPopup() {
       <div className='imgClass'>
         <div className='ww'>
         <div className='imgCss'>
-          <img  alt='s' src='https://cdn.dsmcdn.com/mnresize/500/247/ty569/campaign/banners/original/614252/2f280451f9_0_detay.jpg' className='imgCss2'></img>
+          <img  alt='s' src='https://cdn.dsmcdn.com/mnresize/500/247/ty562/campaign/banners/original/614911/de6c43499b_0_detay.jpg' className='imgCss2'></img>
         </div>
         <div className='imgCss'>
           <img  alt='s' src='https://cdn.dsmcdn.com/mnresize/500/247/ty562/campaign/banners/original/614911/de6c43499b_0_detay.jpg' className='imgCss2' ></img>
