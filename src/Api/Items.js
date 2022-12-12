@@ -254,7 +254,7 @@ const items = [
         price:750,
         link:"https://neal.fun/spend/images/tesla.jpg",
         count:0,
-        basket:false,
+        basket:true,
         favori:false,
     },
     {
@@ -291,7 +291,7 @@ const items = [
         link:"https://neal.fun/spend/images/gold-bar.jpg",
         count:0,
         basket:false,
-        favori:false,
+        favori:true,
     },
     {
         id:33,
@@ -381,7 +381,7 @@ const items = [
         link:"https://neal.fun/spend/images/mona-lisa.jpg",
         count:0,
         basket:false,
-        favori:false,
+        favori:true,
     },
     {
         id:43,

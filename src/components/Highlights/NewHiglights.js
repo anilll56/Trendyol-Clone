@@ -21,7 +21,7 @@ function NewHiglights() {
                 <div className='FavİconCss1'>
                   <div onClick={()=>dispatch(addFavorite({id:item.id}))} className='FavİconCss2'><IoHeartOutline className='iconCss'></IoHeartOutline></div>
                 </div>
-                <Link to='/İtem' state={{ from: "occupation" }}>
+                <Link to='/İtem' state={{ from: item.link , name:item.name , price:item.price , id:item.id}}>
                 <div className='aa'>
                   <img alt='se' className='aa2'  src={item.link}></img>
                 </div>

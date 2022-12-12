@@ -24,7 +24,7 @@ function Card() {
         <div className='CardAbout'>
             <div className='Cardss'>En Çok Satan Ürün</div>
             <div className='Carddd'> {name}</div>
-            <div className='Cardss'>Satıcı :<Link>Trendyol</Link></div>
+            <div className='Cardss'>Satıcı :<Link to="/">Trendyol</Link></div>
             <h4 className='CardPrice'>{price} TL</h4>
             <div className='CardAddTo'>
                 <button className='AddBasket'onClick={()=>dispatch(addBasket({id:id}))} >Sepete Ekle</button>

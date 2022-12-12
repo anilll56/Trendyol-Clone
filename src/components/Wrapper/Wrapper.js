@@ -20,31 +20,31 @@ function Wrapper() {
           <div className="dropdown-content"><MenPopup></MenPopup></div>
         </div>
         <div className='dropdown'>
-          <div className='hovercss'>ANNE & ÇOCUK</div>
+          <div className='hovercss'><Link to="/Men" className='hovercss'>ANNE & ÇOCUK</Link></div>
           <div className="dropdown-content"><BabyPopup></BabyPopup></div>
         </div>
         <div className='dropdown'>
-          <div className='hovercss'>EV & MOBİLYA</div>
+          <div className='hovercss'><Link to="/Women" className='hovercss'>EV & MOBİLYA</Link></div>
           <div className="dropdown-content"><HousePopup></HousePopup></div>
         </div>
         <div className='dropdown'>
-          <div className='hovercss'>SÜPERMARKET</div>
+          <div className='hovercss'><Link to="/Men" className='hovercss'>SÜPERMARKET</Link></div>
           <div className="dropdown-content"><ShopPopup></ShopPopup></div>
         </div>
         <div className='dropdown'>
-          <div className='hovercss'>KOZMETİK</div>
+          <div className='hovercss'><Link to="/Women" className='hovercss'>KOZMETİK</Link></div>
           <div className="dropdown-content"><KozmetikPopup></KozmetikPopup></div>
         </div>
         <div className='dropdown'>
-          <div className='hovercss'>AYAKKABI & ÇANTA</div>
+          <div className='hovercss'><Link to="/Men" className='hovercss'>AYAKKABI & ÇANTA</Link></div>
           <div className="dropdown-content"><ShoesPopup></ShoesPopup></div>
         </div>
         <div className='dropdown'>
-          <div className='hovercss'>SAAT & AKSESUAR</div>
+          <div className='hovercss'> <Link to="/Women" className='hovercss'>SAAT & AKSESUAR</Link></div>
           <div className="dropdown-content"><AksesuarPopup></AksesuarPopup></div>
         </div>
         <div className='dropdown'>
-          <div className='hovercss'>ELEKTRONİK</div>
+          <div className='hovercss'> <Link to="/Men" className='hovercss'>ELEKTRONİK</Link></div>
           <div className="dropdown-content"><WomenPopup></WomenPopup></div>
         </div>
 
