@@ -1,47 +1,15 @@
 .ale{
-    font-size: 2.4rem;
-    width: 6rem;
-    height: 6rem;
+    font-size: 2rem;
+    width: 3rem;
+    height: 3rem;
     color: black;
-    border-radius: 50%;
     position: fixed;
     bottom: 5rem;
-    right: 2rem;
-    z-index: 999;
+    right: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
 }
 .ale:hover{
     color: #f27a1a;
 }
-.wwww{
-    box-sizing: border-box;
-    position: relative;
-    display: block;
-    transform: scale(var(--ggs,1));
-    border: 2px solid;
-    border-radius: 40px;
-    width: 22px;
-    height: 22px
-   }
-   
-   .wwww::after,
-   .wwww::before {
-    content: "";
-    display: block;
-    box-sizing: border-box;
-    position: absolute;
-    width: 6px;
-    height: 6px;
-    border-top: 2px solid;
-    border-left: 2px solid;
-    transform: rotate(45deg);
-    left: 6px;
-    bottom: 3px
-   }
-   
-   .wwww::after {
-    bottom: 7px
-   } 

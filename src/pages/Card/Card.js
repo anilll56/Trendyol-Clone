@@ -5,7 +5,7 @@ import { FiHeart } from "react-icons/fi";
 import { SlArrowRight } from "react-icons/sl";
 import HighlightsPopup from '../../components/Highlights/HighlightsPopup'
 import { IoTerminal } from 'react-icons/io5';
-import { addBasket } from '../../redux/marketSlice';
+import { addBasket, addFavorite } from '../../redux/marketSlice';
 import { useDispatch } from 'react-redux';
 
 function Card() {
@@ -28,7 +28,7 @@ function Card() {
             <h4 className='CardPrice'>{price} TL</h4>
             <div className='CardAddTo'>
                 <button className='AddBasket'onClick={()=>dispatch(addBasket({id:id}))} >Sepete Ekle</button>
-                <div className='AddFavorite'><FiHeart className='Cardİcon'></FiHeart></div>
+                <div className='AddFavorite' onClick={()=>dispatch(addFavorite({id:id}))}><FiHeart className='Cardİcon'></FiHeart></div>
             </div>
             <div className='Cardss'>
                 Tahmini Kargo Teslim: 3 gün içinde

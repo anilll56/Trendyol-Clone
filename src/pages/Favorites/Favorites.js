@@ -11,6 +11,7 @@ function Favorites() {
   const items=useSelector((state)=>state.market.item)
   const item_filtered=items.filter((item)=>item.favori)
   const dispatch=useDispatch();
+  const itemLeft = item_filtered.length;
   return (
     <div>
       <div className='Favn'>

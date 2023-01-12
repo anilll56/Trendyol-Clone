@@ -67,7 +67,7 @@
 }
 .Deleteİcon1{
     display: flex;
-    justify-content: end;
+    justify-content:flex-end;
     margin: 0.4rem;
 }
 .İconCss142{

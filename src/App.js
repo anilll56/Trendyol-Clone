@@ -1,5 +1,5 @@
 import './App.css';
-import { Link, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import Home from './pages/HomePage/Home';
 import Favorites from './pages/Favorites/Favorites';
 import Navbar from './pages/Navbar/Navbar';
@@ -10,13 +10,7 @@ import BasketPage from './pages/Basket/BasketPage';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import Wrapper from './components/Wrapper/Wrapper';
 import Card from './pages/Card/Card';
-  // --uk-translate-x: 0;
-  //--uk-translate-y: 0;
-  //--uk-scale-x: 1;
-  //--uk-scale-y: 1;
-  //transform: translate(var(--uk-position-translate-x),var(--uk-position-translate-y)) translate(var(--uk-translate-x),var(--uk-translate-y)) scale(var(--uk-scale-x),var(--uk-scale-y));
-  //transition: .3s ease-out;
-  //transition-property: opacity,transform,filter;
+
 
 function App() {
 

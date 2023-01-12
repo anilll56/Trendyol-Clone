@@ -9,30 +9,14 @@ function BasketPage() {
   const [number,setNumber]=useState(1);
   const items=useSelector((state)=>state.market.item)
   const itemFilter=items.filter((item)=>item.basket)
+  const itemLeft22=items.filter((item)=>item.basket).length;
   const dispatch=useDispatch();
   return (
     <div>
       <div className='firstContent'>
 
         <div className='LeftSide1'>
-          <div className='BasketHeader'>Sepetim ({1} Ürün)</div>
-          <div className='BasketItem1'>
-            <div className='Free1'>Kargo Bedava!</div>
-            <div className='BasketCard1'>
-              <div>toggle</div>
-              <div className='BasketCardImg1'>
-                <img alt='1' className='BasketCardImg2' src='https://cdn.dsmcdn.com/ty583/product/media/images/20221101/11/204908123/13665409/1/1_org_zoom.jpg'></img>
-              </div>
-              <div className='BasketCardAbout1'>JBLEndurance Run Siyah Mikrofonlu Kulak Içi Kulaklık</div>
-              <div className='BasketCardCounter1'>
-                <div className='BasketCardCounterIcon1' onClick={()=>{setNumber(number-1)}}><BsDash className='A1234'></BsDash></div>
-                <div className='BasketCardNumber1'>{number}</div>
-                <div className='BasketCardCounterIcon1' onClick={()=>{setNumber(number+1)}}><BsPlus className='A1234'></BsPlus></div>
-              </div>
-              <div>Price</div>
-              <div><BsFillTrashFill className='BasketCTrash'></BsFillTrashFill></div>
-            </div>
-          </div>
+          <div className='BasketHeader'>Sepetim ({itemLeft22} Ürün)</div>
             {
               itemFilter.map((item)=>(
                 <div className='BasketItem1'>

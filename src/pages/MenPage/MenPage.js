@@ -8,7 +8,7 @@ function MenPage() {
   return (
     <div>
       <Markalar></Markalar>
-      <HighlightsPopup></HighlightsPopup>
+      <NewHiglights></NewHiglights>
       <İmageContainer></İmageContainer>
       <İmageContainer></İmageContainer>
       <İmageContainer></İmageContainer>
