@@ -1,79 +1,80 @@
-.Favn{
+.Favn {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 1rem;   
+  margin: 1rem;
 }
-.inputcss11{
-    border: 1px solid #d3d3d3;
-    border-radius: 5px;
-    width: 30%;
-    height: 2rem;
-    padding: 5px;
-    padding-left: 10px;
+.inputcss11 {
+  border: 1px solid #d3d3d3;
+  border-radius: 5px;
+  width: 30%;
+  height: 2rem;
+  padding: 5px;
+  padding-left: 10px;
 }
-.inputcss11:hover{
-    border-color: #f27a1a;
+.inputcss11:hover {
+  border-color: #f27a1a;
 }
-.elementscss1{
-    /* height: 330px; */
-    width: 230px;
-    border: 1px solid #d3d3d3;
-    border-radius: 5px;
-    margin-left: 1rem;
+.elementscss1 {
+  /* height: 330px; */
+  width: 230px;
+  border: 1px solid #d3d3d3;
+  border-radius: 5px;
+  margin-left: 1rem;
 }
-.aa11{
-    height: 230px;
-    width: 100%;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    overflow: hidden;
+.aa11 {
+  height: 230px;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  overflow: hidden;
 }
-.aa22{
-    width: 200px;
-    height: 250px;
-    overflow: hidden;
-    display: block;
-    transition: transform 2s;
+.aa22 {
+  width: 200px;
+  height: 250px;
+  overflow: hidden;
+  display: block;
+  border-radius: 5px;
+  transition: transform 2s;
 }
-.aa22:hover{
-    transform: scale(1.05);
+.aa22:hover {
+  transform: scale(1.05);
 }
-.Favİtems{
-    display: grid;
-    grid-template-columns: auto auto auto auto;     
-    gap: 20px;
+.Favİtems {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 20px;
 }
-.AddBASKET1{
-    text-align: center;
+.AddBASKET1 {
+  text-align: center;
 }
-.Dr1{
-   margin-left: 1rem;
-   margin-right: 1rem; 
+.Dr1 {
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
-.AddBasket12{
-    width: 80%;
-    height: 2rem;
-    background-color: #f27a1a;
-    border: solid 0px;
-    border-radius: 5px;
-    font-size: 15px;
-    color: whitesmoke;
-    margin: 1rem;
+.AddBasket12 {
+  width: 80%;
+  height: 2rem;
+  background-color: #f27a1a;
+  border: solid 0px;
+  border-radius: 5px;
+  font-size: 15px;
+  color: whitesmoke;
+  margin: 1rem;
 }
-.AddBasket12:hover{
-    background-color: #dc7520;
+.AddBasket12:hover {
+  background-color: #dc7520;
 }
-.Deleteİcon1{
-    display: flex;
-    justify-content:flex-end;
-    margin: 0.4rem;
+.Deleteİcon1 {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0.4rem;
 }
-.İconCss142{
-    width: 20px;
-    height: 20px;
+.İconCss142 {
+  width: 20px;
+  height: 20px;
 }
-.İconCss142:hover{
-    color: #f27a1a;
+.İconCss142:hover {
+  color: #f27a1a;
 }

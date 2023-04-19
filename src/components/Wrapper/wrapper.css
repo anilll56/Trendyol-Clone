@@ -1,10 +1,10 @@
-.bigWrapper{
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
+.bigWrapper {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
 }
 
-.menu{
+.menu {
   background-color: aqua;
   position: absolute;
   /* right: 20px; */
@@ -14,21 +14,21 @@
   width: 598px;
   border: 1px solid #d4d4d4;
   border-color: #f27a1a;
-  border-radius: 6PX;
+  border-radius: 6px;
 }
-.menu:hover{
+.menu:hover {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
   transition: var(--speed) ease;
 }
-.menu.inactive{
+.menu.inactive {
   opacity: 0;
   visibility: hidden;
   transform: translateY(-20px);
   transition: var(--speed) ease;
 }
-.learningpopup{
+.learningpopup {
   background-color: #f27a1a;
   width: 120vh;
   position: absolute;
@@ -36,7 +36,7 @@
   opacity: 0;
   display: none;
 }
-.learningpopup:hover{
+.learningpopup:hover {
   opacity: 1;
   display: block;
 }
@@ -53,18 +53,18 @@
   margin-left: 20vh;
   margin-right: 20vh;
   min-width: 120vh;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   padding: 4px 8px;
-  z-index: 1;
+  z-index: 2;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
-.hovercss{
+.hovercss {
   color: black;
 }
-.hovercss:hover{
+.hovercss:hover {
   color: #f27a1a;
   text-decoration-line: underline;
 }
