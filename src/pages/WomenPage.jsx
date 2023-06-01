@@ -1,8 +1,7 @@
-import React from 'react'
-import Markalar from '../components/Markalar/Markalar'
-import HighlightsPopup from '../components/Highlights/HighlightsPopup'
-import İmageContainer from '../components/imageContainer/İmageContainer'
-import NewHiglights from '../components/Highlights/NewHiglights'
+import React from "react";
+import Markalar from "../components/Markalar/Markalar";
+import İmageContainer from "../components/imageContainer/İmageContainer";
+import NewHiglights from "../components/Highlights/NewHiglights";
 function WomenPage() {
   return (
     <div>
@@ -12,10 +11,8 @@ function WomenPage() {
       <İmageContainer></İmageContainer>
       <İmageContainer></İmageContainer>
       <İmageContainer></İmageContainer>
-
-
     </div>
-  )
+  );
 }
 
-export default WomenPage
+export default WomenPage;

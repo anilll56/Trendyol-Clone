@@ -3,15 +3,13 @@ import { Link, useLocation } from "react-router-dom";
 import "./Card.css";
 import { FiHeart } from "react-icons/fi";
 import { SlArrowRight } from "react-icons/sl";
-import HighlightsPopup from "../../components/Highlights/HighlightsPopup";
-import { IoTerminal } from "react-icons/io5";
 import { addBasket, addFavorite } from "../../redux/marketSlice";
 import { useDispatch } from "react-redux";
 import NewHiglights from "../../components/Highlights/NewHiglights";
 
 function Card() {
   const location = useLocation();
-  const { from, name, price, id, favori } = location.state;
+  const { from, name, price, id } = location.state;
   const dispatch = useDispatch();
   return (
     <div>
@@ -19,7 +17,7 @@ function Card() {
         <div className="CardLeft">
           <div className="CardPics">
             <div className="Cardİmg">
-              <img className="Cardİmg" src={from}></img>
+              <img className="Cardİmg" src={from} alt="11"></img>
             </div>
           </div>
           <div className="CardAbout">
@@ -64,7 +62,10 @@ function Card() {
               </li>
             </div>
             <div>
-              <img src="https://cdn.dsmcdn.com/web/web-installment-campaigns/3mv3.png"></img>
+              <img
+                src="https://cdn.dsmcdn.com/web/web-installment-campaigns/3mv3.png"
+                alt="11"
+              ></img>
             </div>
           </div>
         </div>

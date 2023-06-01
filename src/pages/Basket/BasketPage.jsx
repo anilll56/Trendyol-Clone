@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./BasketPage.css";
 import { BsDash, BsPlus, BsFillTrashFill } from "react-icons/bs";
-import RightSidePopup from "./RightSidePopup/RightSidePopup";
 import { useDispatch, useSelector } from "react-redux";
 import { deleteBasket } from "../../redux/marketSlice";
 

@@ -56,6 +56,9 @@ function NewHiglights() {
                     id: item.id,
                     favori: item.favori,
                   }}
+                  onClick={() => {
+                    window.scrollTo(0, 0);
+                  }}
                 >
                   <div className="aa">
                     <img alt="se" className="aa2" src={item.link}></img>

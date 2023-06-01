@@ -1,8 +1,7 @@
-import React from 'react'
-import HighlightsPopup from '../../components/Highlights/HighlightsPopup'
-import Markalar from '../../components/Markalar/Markalar'
-import İmageContainer from '../../components/imageContainer/İmageContainer'
-import NewHiglights from '../../components/Highlights/NewHiglights'
+import React from "react";
+import Markalar from "../../components/Markalar/Markalar";
+import İmageContainer from "../../components/imageContainer/İmageContainer";
+import NewHiglights from "../../components/Highlights/NewHiglights";
 
 function MenPage() {
   return (
@@ -13,11 +12,11 @@ function MenPage() {
       <İmageContainer></İmageContainer>
       <İmageContainer></İmageContainer>
       <İmageContainer></İmageContainer>
-      <HighlightsPopup></HighlightsPopup>
+      <NewHiglights></NewHiglights>
       <İmageContainer></İmageContainer>
       <NewHiglights></NewHiglights>
     </div>
-  )
+  );
 }
 
-export default MenPage
+export default MenPage;
