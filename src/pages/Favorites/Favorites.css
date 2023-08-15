@@ -15,6 +15,10 @@
 .inputcss11:hover {
   border-color: #f27a1a;
 }
+.inputcss11:focus {
+  border: 1px solid #f27a1a;
+  outline: none;
+}
 .elementscss1 {
   /* height: 330px; */
   width: 230px;

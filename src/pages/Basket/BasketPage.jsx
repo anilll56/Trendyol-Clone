@@ -5,11 +5,11 @@ import { useDispatch, useSelector } from "react-redux";
 import { deleteBasket } from "../../redux/marketSlice";
 
 function BasketPage() {
-  const [number, setNumber] = useState(1);
   const items = useSelector((state) => state.market.item);
   const itemFilter = items.filter((item) => item.basket);
   const itemLeft22 = items.filter((item) => item.basket).length;
   const dispatch = useDispatch();
+  let totalPrices = itemFilter.reduce((total, item) => total + item.price, 0);
   return (
     <div>
       <div className="firstContent">
@@ -24,25 +24,15 @@ function BasketPage() {
                 </div>
                 <div className="BasketCardAbout1">{item.name}</div>
                 <div className="BasketCardCounter1">
-                  <div
-                    className="BasketCardCounterIcon1"
-                    onClick={() => {
-                      setNumber(number - 1);
-                    }}
-                  >
+                  <div className="BasketCardCounterIcon1">
                     <BsDash className="A1234"></BsDash>
                   </div>
-                  <div className="BasketCardNumber1">{number}</div>
-                  <div
-                    className="BasketCardCounterIcon1"
-                    onClick={() => {
-                      setNumber(number + 1);
-                    }}
-                  >
+                  <div className="BasketCardNumber1">{1}</div>
+                  <div className="BasketCardCounterIcon1">
                     <BsPlus className="A1234"></BsPlus>
                   </div>
                 </div>
-                <div>{item.price * number}</div>
+                <div>{item.price}</div>
                 <div>
                   <BsFillTrashFill
                     onClick={() => dispatch(deleteBasket(item.id))}
@@ -80,7 +70,7 @@ function BasketPage() {
             <div className="cspr1">Sipariş Özeti</div>
             <div className="cspr2">
               <div>Ürünün toplamı</div>
-              <div>700 TL</div>
+              <div>{totalPrices}</div>
             </div>
             <div className="cspr2">
               <div>Kargo toplam</div>
@@ -88,10 +78,10 @@ function BasketPage() {
             </div>
             <div className="cspr2">
               <div>75 TL üzeri Kargo ...</div>
-              <div>- 20 TL</div>
+              <div>{totalPrices > 75 ? "Ücretsiz" : "20 TL"}</div>
             </div>
             <hr></hr>
-            <div className="LastPriceCss">680 TL</div>
+            <div className="LastPriceCss">{totalPrices}</div>
           </div>
           <div className="RightSideImg">
             <img

@@ -6,6 +6,7 @@ import { SlArrowRight } from "react-icons/sl";
 import { addBasket, addFavorite } from "../../redux/marketSlice";
 import { useDispatch } from "react-redux";
 import NewHiglights from "../../components/Highlights/NewHiglights";
+import ReactImageMagnify from "react-image-magnify";
 
 function Card() {
   const location = useLocation();
@@ -17,7 +18,20 @@ function Card() {
         <div className="CardLeft">
           <div className="CardPics">
             <div className="Cardİmg">
-              <img className="Cardİmg" src={from} alt="11"></img>
+              <ReactImageMagnify
+                {...{
+                  smallImage: {
+                    alt: "Wristwatch by Ted Baker London",
+                    isFluidWidth: true,
+                    src: from,
+                  },
+                  largeImage: {
+                    src: from,
+                    width: 2000,
+                    height: 2000,
+                  },
+                }}
+              />
             </div>
           </div>
           <div className="CardAbout">

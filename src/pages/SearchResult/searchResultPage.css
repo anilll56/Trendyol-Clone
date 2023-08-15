@@ -1,0 +1,4 @@
+.searchResult-content {
+  display: flex;
+  justify-content: space-evenly;
+}

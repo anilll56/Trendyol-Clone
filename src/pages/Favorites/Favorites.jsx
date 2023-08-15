@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Favorites.css";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
@@ -6,16 +6,26 @@ import { addBasket, deleteFavori } from "../../redux/marketSlice";
 import { AiOutlineClose } from "react-icons/ai";
 
 function Favorites() {
+  const [search, setSearch] = useState("");
   const items = useSelector((state) => state.market.item);
   const item_filtered = items.filter((item) => item.favori);
   const dispatch = useDispatch();
+  let item_filteredBySearch = item_filtered.filter((item) => {
+    return item.name.toLowerCase().indexOf(search.toLowerCase()) !== -1;
+  });
   return (
     <div>
       <div className="Favn">
-        <input className="inputcss11" placeholder="Favorilerinde ara"></input>
+        <input
+          className="inputcss11"
+          placeholder="Favorilerinde ara"
+          onChange={(e) => {
+            setSearch(e.target.value);
+          }}
+        ></input>
       </div>
       <div className="Favİtems">
-        {item_filtered.map((item) => (
+        {item_filteredBySearch.map((item) => (
           <div className="elementscss1">
             <div className="Deleteİcon1">
               <AiOutlineClose
@@ -52,6 +62,11 @@ function Favorites() {
           </div>
         ))}
       </div>
+      {item_filteredBySearch.length === 0 && (
+        <div>
+          <h3>Bir sonuç bulunamadı</h3>
+        </div>
+      )}
     </div>
   );
 }
